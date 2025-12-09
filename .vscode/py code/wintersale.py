@@ -1,0 +1,5 @@
+a,b=input().split()
+a=float(a)
+b=float(b)
+c=(b*(1-(a/100))**-1)
+print(f"{c:.2f}")

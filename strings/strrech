@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+#include<string.h>
+int main()
+{
+    int i,n;
+    char s[100],s2[100];
+    printf("Enter a string: ");
+    gets(s);
+    
+    
+    return(0);
+}   
+

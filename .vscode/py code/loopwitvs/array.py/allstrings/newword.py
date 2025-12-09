@@ -1,0 +1,7 @@
+n=input().strip()
+e= n.count('e')+n.count('E')
+g= n.count('g')+n.count('G')
+y= n.count('y' )+n.count('Y')
+p= n.count('p')+n.count('P')
+t= n.count('t')+n.count('T')
+print(min(e,g,y,p,t))
