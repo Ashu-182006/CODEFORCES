@@ -1,13 +1,13 @@
 h1{
-    color:blue;
+    color :rgb(233, 18, 18);
 }
-h2{
+ h2{
     color:aliceblue;
 }
 body{
     background-color: black;
 }
-button {
+/*button {
     background-color: blue;
     color: white;
     border-radius: 12px;
@@ -21,4 +21,4 @@ div{
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-}
+} */

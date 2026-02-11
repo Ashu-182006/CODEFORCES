@@ -1,0 +1,10 @@
+
+s = input().strip()
+t = input().strip()
+
+p = 0
+for c in t:
+    if s[p] == c:
+        p += 1
+
+print(p + 1)
