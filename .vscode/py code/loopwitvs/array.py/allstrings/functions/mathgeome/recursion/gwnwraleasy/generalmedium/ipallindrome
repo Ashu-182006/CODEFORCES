@@ -1,0 +1,12 @@
+def is_palindrome(s):
+    return s == s[::-1]
+
+s = input().strip()
+n = len(s)
+
+if not is_palindrome(s):
+    print(n)
+elif len(set(s)) == 1:  
+    print(0)
+else:
+    print(n - 1)

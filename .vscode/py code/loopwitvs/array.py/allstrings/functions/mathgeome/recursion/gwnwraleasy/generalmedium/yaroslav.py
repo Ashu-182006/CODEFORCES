@@ -1,15 +1,16 @@
-n=int(input())
-s=list(map(int,input().split()))
-t=list(set(s))
-if len(t)==len(s):
+n = int(input())
+s = list(map(int, input().split()))
+
+freq = {}
+for x in s:
+    if x in freq:
+        freq[x] += 1
+    else:
+        freq[x] = 1
+
+max_freq = max(freq.values())
+
+if max_freq <= (n + 1) // 2:
     print("YES")
-elif(len(s)%2==0):
-    if (len(t)>len(s)//2):
-        print("yes")
-    else:
-        print("NO")
 else:
-    if (len(t)>=(len(s)//2)-1):
-        print("YES")
-    else:
-        print("NO")
+    print("NO")

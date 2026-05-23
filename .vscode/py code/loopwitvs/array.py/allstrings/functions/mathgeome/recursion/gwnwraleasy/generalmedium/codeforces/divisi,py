@@ -1,0 +1,11 @@
+n=int(input())
+for i in range(n):
+    k=int(input())
+    if k<=1399:
+        print("Division 4")
+    elif k<=1599:
+        print("Division 3")
+    elif k<=1899:
+        print("Division 2")
+    else:
+        print("Division 1")

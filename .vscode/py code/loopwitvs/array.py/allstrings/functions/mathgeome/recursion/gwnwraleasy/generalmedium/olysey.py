@@ -1,6 +1,8 @@
-a,b=map(int,input().split())
-for i in range( (10**(a-1)),(10**a)):
-    if "0" not in str(i):
-        if i%b==0:
-            print(i)
-            break
+n, t = map(int, input().split())
+if n == 1 and t == 10:
+    print(-1)
+else:
+    num = 10**(n-1)
+    if num % t != 0:
+        num += t - (num % t)
+    print(num)
